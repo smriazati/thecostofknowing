@@ -10,9 +10,9 @@ The Cost of Knowing is an interactive installation that illuminates the sources 
 
 Can you judge these books by their covers? The headlines might grab your attention:
 
-    * <a href="https://www.buzzfeed.com/norbertobriceno/engagement-in-five-year?utm_term=.hbzeky24Q#.rm1ObaJ16">Will you get engaged in the next five years? Take this test!</a>
-    * <a href="https://www.buzzfeed.com/katebubacz/stunning-wildfire-photos?utm_term=.gdDX53d97#.vq5gP5J3K">These Photos Show Just How Terrifying The Fires Are In California?</a>
-    * <a href="https://www.buzzfeed.com/jamiejirak1/stop-what-youre-doing-because-reeses-pieces-dont-have">There's One Thing You Never Knew About Reese's Pieces</a>
+* <a href="https://www.buzzfeed.com/norbertobriceno/engagement-in-five-year?utm_term=.hbzeky24Q#.rm1ObaJ16">Will you get engaged in the next five years? Take this test!</a>
+* <a href="https://www.buzzfeed.com/katebubacz/stunning-wildfire-photos?utm_term=.gdDX53d97#.vq5gP5J3K">These Photos Show Just How Terrifying The Fires Are In California?</a>
+* <a href="https://www.buzzfeed.com/jamiejirak1/stop-what-youre-doing-because-reeses-pieces-dont-have">There's One Thing You Never Knew About Reese's Pieces</a>
 
 When a user removes the paperweight and opens the book, they might notice that the screen, hidden underneath more Amazon box cardboard, starts to rapidly flash random images of the elements of the physical internet: rare earth mineral mines, factory workers in white clean suits, undersea cables, man hole covers, coal plants, silicon chips, etc. These images appear too quickly to be read individually. Instead, they form a sort of animation where subliminal messages emerge. 
 
@@ -191,7 +191,7 @@ And we use the float data to trigger the image drawing function at a specific th
 
 <h2> Sources & Inspirations</h2>
 
-    * <a href="https://learn.sparkfun.com/tutorials/flex-sensor-hookup-guide">Flex sensor hookup guide</a>
-    * <a href="http://www.jodiemack.com/filmsvideos/wasteland-no-1-ardent-verdant/">Wasteland No. 1: Ardent, Verdant by Jodie Mack</a>
+* <a href="https://learn.sparkfun.com/tutorials/flex-sensor-hookup-guide">Flex sensor hookup guide</a>
+* <a href="http://www.jodiemack.com/filmsvideos/wasteland-no-1-ardent-verdant/">Wasteland No. 1: Ardent, Verdant by Jodie Mack</a>
 
 This project was created for Mark Olson and Matthew Kenney's Physical Computing / Internet of Things course at Duke in Fall 2017. Thank you to Mark, Matt, and my clasmates for helping me create this project and to think critically about the Internet of Things! 
