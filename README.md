@@ -1,25 +1,26 @@
 <h1>The Cost of Knowing</h1>
 
-<blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<img src="documentation/installation.gif" width="500px" />
 
 <h2>Concept</h2>
 
 The Cost of Knowing is an interactive installation that illuminates the sources that feed our content addictions: the resources of the physical internet. 
 
-[ picture of installation ] 
+<img src="documentation/book1.jpg" width="500px" />
 
-Can you judge these books by their covers? The headlines might grab your attention:
+It's ok to judge these clickbait-y books by their covers:
 
 * <a href="https://www.buzzfeed.com/norbertobriceno/engagement-in-five-year?utm_term=.hbzeky24Q#.rm1ObaJ16">Will you get engaged in the next five years? Take this test!</a>
 * <a href="https://www.buzzfeed.com/katebubacz/stunning-wildfire-photos?utm_term=.gdDX53d97#.vq5gP5J3K">These Photos Show Just How Terrifying The Fires Are In California?</a>
 * <a href="https://www.buzzfeed.com/jamiejirak1/stop-what-youre-doing-because-reeses-pieces-dont-have">There's One Thing You Never Knew About Reese's Pieces</a>
 
-When a user removes the paperweight and opens the book, they might notice that the screen, hidden underneath more Amazon box cardboard, starts to rapidly flash random images of the elements of the physical internet: rare earth mineral mines, factory workers in white clean suits, undersea cables, man hole covers, coal plants, silicon chips, etc. These images appear too quickly to be read individually. Instead, they form a sort of animation where subliminal messages emerge. 
-
-
-<img src="documentation/book1.jpg" width="500px" />
 <img src="documentation/book2.jpg" width="500px" />
 <img src="documentation/book3.jpg" width="500px" />
+
+<img src="documentation/screen.gif" width="500px" />
+
+When a user removes the paperweight and opens the book, they might notice that the screen, hidden underneath more Amazon box cardboard, starts to rapidly flash random images of the elements of the physical internet: rare earth mineral mines, factory workers in white clean suits, undersea cables, man hole covers, coal plants, silicon chips, etc. These images appear too quickly to be read individually. Instead, they form a sort of animation where subliminal messages emerge. 
+
 
 
 <h2>Technical Design</h2>
@@ -191,10 +192,16 @@ And we use the float data to trigger the image drawing function at a specific th
 <a href="photon/costofknowing_photon.ino">View the Processing sketch code here.</a>
 
 
+<h2>Reflection</h2>
 
-<h2> Sources & Inspirations</h2>
+For this project, my goal was to continue the research I had began in my "RGB Game" project. In critique, I realized that the concept was intriguing to people, but the twist of the RGB Game lost its magic after a single game play. Also, because the RGB Game presents the connection to the physical internet still within the language of the internet (i.e. bytes created), it remains somewhat esoteric, when the whole goal is make visualize hidden, invisible infrastructures. Taking this feedback to heart, I decided to get very literal - in The Cost of Knowing, the installation responds to the user's interaction by literally spitting out images of the physical internet. I think that this created an interesting visual effect, but I am not sure if the impact really landed in the way I expected. Users expected the screen to respond differently to each book, or even to different pages in the book. I also found that users did not really spend time reading the books, but were more intrigued with the novelty of how much the book had to be open before the screen started playing. If I redo this project, I would think more critically about the role of the screen, and what I could do to encourage visitors to engage with the printed books as if they were on their phones. 
 
-* <a href="https://learn.sparkfun.com/tutorials/flex-sensor-hookup-guide">Flex sensor hookup guide</a>
-* <a href="http://www.jodiemack.com/filmsvideos/wasteland-no-1-ardent-verdant/">Wasteland No. 1: Ardent, Verdant by Jodie Mack</a>
+I wanted to avoid buying things to create this project, but realized after the show that most of the materials I received to make it possible were donated through from my generous professors and friends. The donations I relied on could also be extended to the code support I found in online forums and the Creative Commons photographs I used. I think I could have done a better job making the donations of the materials and knowledge more transparent in the presentation.  
+
+For the programming part of this project, I was able to reuse the OSC code I figured out from my midterm. Otherwise, I adapted the flex sensor documentation's program and circuit for my own purposes. I learned more about resistors and voltage dividers while laying out the circuit, which was ultimately pretty simple. The thing that I struggled with was soldering! I had to solder hookup wire to the flex sensor's pins, and since the two pins were very close together and I have never really soldered before, this was a challenge.  
+
+Overall, this project challenged me to make things I had never made before. I really enjoyed working with found materials and inventing solutions on the fly. It was also exciting to combine the technical side of this project with other skills and interests I have, like graphic design and handmade crafts. The concept for this project started off in a very different place, and it became what it was through the advice and collaboration of my advisors and peers. I really enjoyed the brainstorming part of the concept stage, and the feeling of landing on a feasible yet intriguing idea. 
+
+<h2>About this Repo</h2>
 
 This project was created for Mark Olson and Matthew Kenney's Physical Computing / Internet of Things course at Duke in Fall 2017. Thank you to Mark, Matt, and my clasmates for helping me create this project and to think critically about the Internet of Things! 
