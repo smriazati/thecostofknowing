@@ -44,12 +44,15 @@ For the installation, I needed to hide the breadboard, so I soldered a foot of h
 
 <h3>The books</h3>
 
-To design the books, I created screenshots of Buzzfeed articles, and used Adobe InDesign to layout the book spreads. I used the imposition features of Indesign to print the booklets. 
+I started by making a few book prototypes to figure out the appropriate size and shape of each book. To design the books, I created screenshots of Buzzfeed articles, and used Adobe InDesign to layout the book spreads. I used the imposition features of Indesign to print the booklets. 
 
 I made the covers out of reclaimed Amazon boxes. I taped the soldered flex sensor inside the books cover, and I was careful to place the tape over the weak base of the sensor. The sensors were only taped down on *one* side. I also taped the wiring and bent it back around, so the wires would pierce the cover's spine. All of the circuitry is on one side of the of the cover, and I covered this up with a sheet of cardstock. This also served as a cover liner. I also glued a sheet of cardstock to the other side of the cover, and slid the the loose, untaped side of the flex sensor underneath the cardstock lining on this side. It was important to avoid taping the sensor down on both sides, because the sensor needed some flexible space to move depending on if the book is open (flat) or closed (bent). 
 
-I tried to avoid buying any materials for this project, but I did buy one thing from Amazon: a bookmaking kit. It's hard to sew a book together without a good needle! After I got the sensors into the covers and glued down the cover lining, I used the bookmaking kit and <a href="https://www.youtube.com/watch?v=aWHkY5jOoqM">this saddle stitching tutorial</a> to sew the books together with waxed thread.
+I did buy one thing for this project from Amazon: a bookmaking kit. It's hard to sew a book together without a good needle! After I got the sensors into the covers and glued down the cover lining, I used the bookmaking kit and <a href="https://www.youtube.com/watch?v=aWHkY5jOoqM">this saddle stitching tutorial</a> to sew the books together with waxed thread.
 
+<h3>The installation</h3>
+
+The installation depended on cardboard to both conceal electronics and create an aesthetic. All the cardboard used for the project came from recycled Amazon boxes (a reference to the hegemony of AWS servers). The books did not want to be closed, so I used crystals as paperweights to hold each book closed.
 
 
 <h2>Code</h2>
