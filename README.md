@@ -17,11 +17,9 @@ It's ok to judge these clickbait-y books by their covers:
 <img src="documentation/book2.jpg" width="500px" />
 <img src="documentation/book3.jpg" width="500px" />
 
-<img src="documentation/screen.gif" width="500px" />
-
 When a user removes the paperweight and opens the book, they might notice that the screen, hidden underneath more Amazon box cardboard, starts to rapidly flash random images of the elements of the physical internet: rare earth mineral mines, factory workers in white clean suits, undersea cables, man hole covers, coal plants, silicon chips, etc. These images appear too quickly to be read individually. Instead, they form a sort of animation where subliminal messages emerge. 
 
-
+<img src="documentation/screen.gif" width="500px" />
 
 <h2>Technical Design</h2>
 
@@ -37,7 +35,7 @@ The flex sensor is a resistor, and as it bends, it's resistance changes. On the 
 
 The documentation was really helpful! It's important to only bend the flex sensors in a certain direction, and to avoid bending them at their weak bases.
 
-<img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/5/1/1/flex-sensor-direction.png" width="250px" />
+<img src="https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/5/1/1/flex-sensor-direction.png" width="500px" />
 
 For the installation, I needed to hide the breadboard, so I soldered a foot of hookup wire to the ends of the flex sensors.  
 
@@ -112,7 +110,7 @@ In the loop, pass the sensor information into variables, and use those variables
  
         // finish the message
         outMessage.send(udp,outIp,outPort);
-}
+    }
 
 
 <a href="processing/costofknowing/thecostofknowing.pde">View the Photon code here.</a>
