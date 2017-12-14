@@ -187,7 +187,7 @@ And we use the float data to trigger the image drawing function at a specific th
     }
 
 
-<a href="processing/costofknowing/costofknowing.pde">View the Processing sketch code here.</a>
+<a href="processing/thecostofknowing/thecostofknowing.pde">View the Processing sketch code here.</a>
 
 
 <h2>Reflection</h2>
